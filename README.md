@@ -6,8 +6,6 @@ This project demonstrates a secure cloud-native architecture for hosting web app
 
 ##  Architecture Overview
 
-![Cloud Architecture](architecture-diagram/cloud-architecture.jpg)
-
 ##  Key Components & Security Controls
 
 | Component            | Purpose / Security Function                                         |
