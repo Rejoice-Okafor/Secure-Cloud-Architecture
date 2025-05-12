@@ -1,0 +1,18 @@
+$resourceGroup = "MyResourceGroup"
+$location = "EastUS"
+$vmName = "myVM"
+$adminUser = "azureuser"
+$adminPassword = "P@ssword1234!"
+$cred = New-Object System.Management.Automation.PSCredential($adminUser, (ConvertTo-SecureString $adminPassword -AsPlainText -Force))
+
+# Create VM
+New-AzVM -ResourceGroupName $resourceGroup `
+    -Name $vmName `
+    -Location $location `
+    -VirtualNetworkName "$vmName-VNet" `
+    -SubnetName "$vmName-Subnet" `
+    -SecurityGroupName "$vmName-NSG" `
+    -PublicIpAddressName "$vmName-PIP" `
+    -OpenPorts 3389 `
+    -Credential $cred `
+    -Image "Win2022Datacenter"
