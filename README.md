@@ -35,7 +35,7 @@ Below is an overview of the cloud architecture diagram:
 | **Azure APIM**            | API gateway to secure APIs via managed identities and RBAC             |
 | **Azure SQL**             | Database with RBAC + Private Link + TDE                                |
 | **AKS (Microservices)**   | App backend with network policies, RBAC, managed identity              |
-| **Log Analytics / Sentinel** | Log aggregation, detection, and response via SIEM                   |
+| **Log Analytics** | Log aggregation, detection, and response via SIEM                   |
 | **Defender for Cloud**    | Posture management + threat protection across resources                |
 | **Azure Monitor & App Insights** | Real-time telemetry and operational monitoring                |
 | **DDoS Protection**       | Network-level protection for public-facing services                    |
