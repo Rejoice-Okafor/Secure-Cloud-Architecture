@@ -1,0 +1,6 @@
+AzureDiagnostics
+| where Category == "SQLSecurityAuditEvents"
+| where TimeGenerated > ago(7d)
+| project TimeGenerated, LogicalServerName_s, database_name_s, action_name_s, succeeded_s, statement_s, session_id_s, application_name_s, client_ip_s, principal_name_s
+| sort by TimeGenerated desc
+
