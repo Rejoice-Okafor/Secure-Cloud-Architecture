@@ -1,5 +1,3 @@
-# Secure-Cloud-Architecture
-
 # Secure Cloud Architecture for Azure Web Applications
 
 This project demonstrates a secure cloud-native architecture for hosting web applications in Microsoft Azure. It follows the principles of Zero Trust, least privilege access, and identity-based security using Microsoft’s ecosystem.
