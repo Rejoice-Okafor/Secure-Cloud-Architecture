@@ -1,1 +1,4 @@
+AuditLogs
+| where ActivityDisplayName == "Add member to role" or ActivityDisplayName == "Remove member from role"
+| project TimeGenerated, ActivityDisplayName, InitiatedBy, TargetResources
 
