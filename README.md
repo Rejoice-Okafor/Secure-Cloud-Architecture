@@ -4,6 +4,14 @@ This project demonstrates a secure cloud-native architecture for hosting web app
 
 ##  Architecture Overview
 
+Below is an overview of the cloud architecture diagram:
+
+![Cloud Architecture Diagram](architecture-diagram/cloud-architecture.png)
+
+## Download
+
+You can [download the full diagram here](architecture-diagram/cloud-architecture.png).
+
 ##  Key Components & Security Controls
 
 | Component            | Purpose / Security Function                                         |
