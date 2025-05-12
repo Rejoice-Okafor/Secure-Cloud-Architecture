@@ -1,1 +1,5 @@
+SigninLogs
+| where ResultType != 0
+| summarize FailedAttempts=count() by UserPrincipalName, bin(TimeGenerated, 1h)
+| order by FailedAttempts desc
 
