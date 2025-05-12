@@ -1,1 +1,4 @@
+AzureDiagnostics
+| where ResourceType == "VAULTS" and OperationName == "SecretGet"
+| project TimeGenerated, Identity, ResultType, OperationName
 
