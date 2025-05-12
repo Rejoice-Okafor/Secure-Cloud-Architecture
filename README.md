@@ -58,12 +58,12 @@ Below is an overview of the cloud architecture diagram:
 
 ## Security Principles Applied
 
-- ✅ Zero Trust Network Architecture
-- ✅ Role-based Access Control (RBAC)
-- ✅ Principle of Least Privilege (PIM)
-- ✅ Secure Secret Management (Key Vault)
-- ✅ Managed Identities
-- ✅ Threat Detection and Monitoring
+-  Zero Trust Network Architecture
+-  Role-based Access Control (RBAC)
+-  Principle of Least Privilege (PIM)
+-  Secure Secret Management (Key Vault)
+-  Managed Identities
+-  Threat Detection and Monitoring
 
 ---
 
