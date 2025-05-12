@@ -1,1 +1,20 @@
+$resourceGroup = "MyResourceGroup"
+$location = "EastUS"
+$sqlServerName = "mySqlServer1234"
+$sqlAdminUser = "sqladmin"
+$sqlAdminPassword = "StrongP@ssw0rd!"
+$sqlDbName = "myDatabase"
+
+# Create SQL server
+New-AzSqlServer -ResourceGroupName $resourceGroup `
+    -ServerName $sqlServerName `
+    -Location $location `
+    -SqlAdministratorCredentials (New-Object -TypeName System.Management.Automation.PSCredential `
+    -ArgumentList $sqlAdminUser, (ConvertTo-SecureString $sqlAdminPassword -AsPlainText -Force))
+
+# Create SQL database
+New-AzSqlDatabase -ResourceGroupName $resourceGroup `
+    -ServerName $sqlServerName `
+    -DatabaseName $sqlDbName `
+    -RequestedServiceObjectiveName "Basic"
 
