@@ -1,1 +1,5 @@
+SignInLogs
+| where TimeGenerated > ago(7d)
+| project TimeGenerated, UserPrincipalName, AppDisplayName, IPAddress, Location, ConditionalAccessStatus, Status
+| sort by TimeGenerated desc
 
