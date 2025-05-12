@@ -4,11 +4,11 @@
 
 This project demonstrates a secure cloud-native architecture for hosting web applications in Microsoft Azure. It follows the principles of Zero Trust, least privilege access, and identity-based security using Microsoft’s ecosystem.
 
-## 🧩 Architecture Overview
+##  Architecture Overview
 
-![Cloud Architecture](architecture-diagram/cloud-architecture.png)
+![Cloud Architecture](architecture-diagram/cloud-architecture.jpg)
 
-## 🔐 Key Components & Security Controls
+##  Key Components & Security Controls
 
 | Component            | Purpose / Security Function                                         |
 |----------------------|---------------------------------------------------------------------|
