@@ -1,1 +1,9 @@
+# Create a resource group
+New-AzResourceGroup -Name SecureRG -Location "EastUS"
+
+# Deploy a Key Vault with RBAC enabled
+New-AzKeyVault -Name "SecureKeyVault001" `
+  -ResourceGroupName "SecureRG" `
+  -Location "EastUS" `
+  -EnableRbacAuthorization
 
