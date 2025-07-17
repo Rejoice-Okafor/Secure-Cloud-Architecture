@@ -1,4 +1,4 @@
-# Secure Cloud Architecture for Azure Web Applications
+# Secure Cloud Architecture for Web/Mobile Applications
 
 This project demonstrates a secure cloud-native architecture for the secure deployment of a mobile application using Microsoft security solutions. It follows the principles of Zero Trust, least privilege access, defense in depth and identity-based security.
 
