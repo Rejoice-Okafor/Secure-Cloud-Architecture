@@ -18,9 +18,9 @@ Before using the Infrastructure as Code (IAC) scripts, ensure the following:
 
 Below is an overview of the cloud architecture diagram:
 
-![Cloud Architecture Diagram](architecture-diagram/cloud-architecture.png)
+![Cloud Architecture Diagram](architecture-diagram/Security.drawio.png)
 
-📥 [Download the full diagram here](architecture-diagram/cloud-architecture.png)
+📥 [Download the full diagram here](architecture-diagram/Security.drawio.png)
 
 ---
 
